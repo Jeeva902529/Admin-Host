@@ -18,7 +18,7 @@ import {
 } from "lucide-react"
 import logo from "../Assets/Logo.png"
 
-const API_URL = "http://localhost:5000/api/orders/my-orders"
+const API_URL = "https://back-end-res-6emf.onrender.com/api/orders/my-orders"
 
 // OrderItem component with toggle for details
 const OrderItem = ({ order }) => {
@@ -284,7 +284,7 @@ const OrdersPage = () => {
 
   const handleMarkPaid = async (tableNumber) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/orders/mark-paid/${tableNumber}`, {
+      const response = await fetch(`https://back-end-res-6emf.onrender.com/api/orders/mark-paid/${tableNumber}`, {
         method: "POST",
       })
 
