@@ -17,7 +17,7 @@ import {
   Coffee,
 } from "lucide-react"
 
-const API_BASE = "http://localhost:5000/api/foods"
+const API_BASE = "https://back-end-res-6emf.onrender.com/api/foods"
 
 const foodCategories = [
   { value: "noodles", label: "Noodles", icon: "🍜" },
