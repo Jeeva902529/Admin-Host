@@ -19,7 +19,7 @@ export default function LoginPage() {
     setError("")
 
     try {
-      const res = await axios.post("http://localhost:5000/api/login", {
+      const res = await axios.post("https://back-end-res-6emf.onrender.com/api/login", {
         username,
         password,
       })
